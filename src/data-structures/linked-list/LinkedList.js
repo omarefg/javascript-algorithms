@@ -1,7 +1,7 @@
-import LinkedListNode from './LinkedListNode';
-import Comparator from '../../utils/comparator/Comparator';
+const LinkedListNode = require('./LinkedListNode');
+const Comparator = require('../../utils/comparator/Comparator');
 
-export default class LinkedList {
+class LinkedList {
   /**
    * @param {Function} [comparatorFunction]
    */
@@ -236,3 +236,5 @@ export default class LinkedList {
     return this;
   }
 }
+
+module.exports = LinkedList;
